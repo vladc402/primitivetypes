@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Информация о примитивных типах через классы-обёртки
+        // Информация о примитивных типах через классы обертки
         System.out.println("byte: размер = " + Byte.BYTES + " байт, мин = " + Byte.MIN_VALUE + ", макс = " + Byte.MAX_VALUE);
         System.out.println("short: размер = " + Short.BYTES + " байт, мин = " + Short.MIN_VALUE + ", макс = " + Short.MAX_VALUE);
         System.out.println("int: размер = " + Integer.BYTES + " байт, мин = " + Integer.MIN_VALUE + ", макс = " + Integer.MAX_VALUE);
